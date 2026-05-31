@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Generated per-participant outputs and group tables
+derived/
+Datasets/*/derived/
+output/group/
+
+# Office lock files
+~$*
+
+# Extracted raw streams (kept compressed as .gz)
+Datasets/*/*.txt

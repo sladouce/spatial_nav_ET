@@ -1,0 +1,17 @@
+# NaviGaze platform dependencies (target: Python 3.12)
+# Scientific stack (already present in py -3.12, pinned loosely for the venv)
+numpy
+pandas
+scipy
+matplotlib
+
+# Geospatial / GPS
+gpxpy
+shapely
+folium
+
+# Web app (processing platform)
+flask
+
+# Config
+pyyaml
